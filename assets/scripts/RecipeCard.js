@@ -150,17 +150,17 @@ class RecipeCard extends HTMLElement {
     let rate = document.createElement("span");
     rate.innerHTML = data.rating;
     let ratingImg = document.createElement("img");
-    let src = "/assets/images/icons/0-star.svg";
+    let src = "assets/images/icons/0-star.svg";
     if (data.rating == 1) {
-      src = "/assets/images/icons/1-star.svg";
+      src = "assets/images/icons/1-star.svg";
     } else if (data.rating == 2) {
-      src = "/assets/images/icons/2-star.svg";
+      src = "assets/images/icons/2-star.svg";
     } else if (data.rating == 3) {
-      src = "/assets/images/icons/3-star.svg";
+      src = "assets/images/icons/3-star.svg";
     } else if (data.rating == 4) {
-      src = "/assets/images/icons/4-star.svg";
+      src = "assets/images/icons/4-star.svg";
     } else if (data.rating == 5) {
-      src = "/assets/images/icons/5-star.svg";
+      src = "assets/images/icons/5-star.svg";
     } else {
       // DO NOTHIGN
     }
